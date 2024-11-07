@@ -11,7 +11,7 @@ function Navbar() {
     <>
       <div className="Navbar">
         <div className="logo">
-          <img src="/logos.jpeg" alt="" />
+          <img src="/short-logo.png" alt="" />
         </div>
         <div className="Navbarlinks">
           {/* <NavLink to={"/about"}>about</NavLink> */}
@@ -19,8 +19,10 @@ function Navbar() {
           <a href="#proj" id="">
             Project
           </a>
+          <a href="#skill">Skills</a>
          
           <a href="#contact">Contact</a>
+          
           <Link to={"blog"}>Blog</Link>
           {color == true ? (
             <img
@@ -48,8 +50,9 @@ function Navbar() {
           Project
         </a>
         <a href="#contact">Contact</a>
+        <a href="#skill">Skill</a>
         <Link to={"blog"}>Blog</Link>
-        <div className="icons">
+        {/* <div className="icons">
         <Link to={"https://github.com/dhananjaymonga"}>
           <img
             width="60"
@@ -71,11 +74,12 @@ function Navbar() {
             onClick={abc}
             width="50"
             height="50"
-            src="https://img.icons8.com/ios-filled/50/FFFFFF/x.png"
+            src="https://img.
+            8.com/ios-filled/50/FFFFFF/x.png"
             alt="x"
             />
             </Link>
-        </div>
+        </div> */}
       </div>
     </>
   );

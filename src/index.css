@@ -137,7 +137,19 @@ padding: 10px 20px;
   text-decoration: none;
   color: white;
   border-radius: 8px;
+  animation: myAnim 1s ease 0s 1 normal forwards;
 }
+@keyframes myAnim {
+    0% {
+      animation-timing-function: ease-in;
+      opacity: 0;
+      transform: translateY(20px);
+    }
+    100% {
+      animation-timing-function: ease-out;
+      transform: translateY(0);
+    }
+  }
 .sectionicons{
   display: flex;
   justify-content: center;
@@ -237,15 +249,18 @@ overflow: hidden;
   }  
 }
 .proj{
-  border: 2px solid black;
+  /* border: 2px solid black; */
   width: 100%;
   display: flex;
   /* padding: 4rem 5rem; */
   /* height: max-content; */
   color: white;
 }
+.proj a{
+  text-decoration: none;
+}
 .projectlist{
-  width: 30%;
+  width: 26%;
   padding: 3rem 6rem;
   display: flex;
   flex-direction: column;
@@ -259,7 +274,7 @@ overflow: hidden;
 .projectlist li{
   /* padding: 2rem 3rem; */
   font-size: 30px;
-  border: 2px solid black;
+  /* border: 2px solid black; */
   text-align: center;
   background-color:#dd5245;
   width: 70%;
@@ -278,9 +293,9 @@ list-style: none;
   display: grid;
   padding: 2rem 4rem;
   height: max-content;
-  grid-template-columns: repeat(2,1fr);
-gap: 2rem;
-  width: 70%;
+  grid-template-columns: repeat(4,1fr);
+  gap: 2rem;
+  width: 100%;
   /* background-color: aqua; */
   /* border: 2px solid black; */
 
@@ -292,15 +307,14 @@ gap: 2rem;
 .setbox{
 display: flex;
 flex-direction: column;
+justify-content: center;
 gap: 1rem;
 }
 .setbox h2{
+  /* text-align: center; */
   color:#dd5245;
 }
-.
-.active{
-  /* color: var(--my); */
-}
+
 @media only screen and (max-width: 778px) {
   .projectimage{
     display: grid;
@@ -349,6 +363,12 @@ padding: -2rem 0rem;
   flex-direction: column;
   gap: 2rem;
   color: white;
+}
+.contact form{
+  display: flex;
+  flex-direction: column;
+  gap: 1.5rem;
+
 }
 .contact input{
   padding: 1rem ;
@@ -447,6 +467,42 @@ flex-direction: column;
 justify-content: center;
 align-items: center;
 text-align: center;
+}
+
+
+@keyframes move {
+  from {
+          transform: translateX(-200);
+       }
+  to   {
+          transform: translateX(1000px);
+       }
+}
+.skillstools svg{
+  width: 60px;
+  height: 60px;
+}
+.skillstools ul{
+  padding-top: 40px;
+  width: 50%;
+  margin: auto;
+ display: flex;
+ flex-wrap: wrap;
+ gap: 20px;
+ font-size: 20px;
+ color: white;
+}
+
+.skil{
+  width: 100%;
+  display: flex;
+  gap: 20px;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+.skil h1{
+color: white;
 }
 
 

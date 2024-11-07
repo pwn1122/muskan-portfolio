@@ -18,16 +18,19 @@ function About() {
     <div className='about' id='about'>
       <div className='main'>
         <h2>About</h2>
-        <p>Hi, I am Dhananjay. Currently a student of  Jan Nayak Choudhary Devi Lal Vidyapeeth Sirsa doing B.TECH in Computer Engineering Great interest in technical things and enjoy to solve tech problems and looking forward to convert that interest to my carrer</p>
+        <p> Hello, I’m Sonu Dhillon, a graphic designer with a passion for creating meaningful designs that make a lasting impact <br />
+        As a graphic designer, I strive to create designs that are not only visually appealing but also communicate a message effectively. <br />
+        I have worked with clients from various sectors, such as fashion, food, and education.</p>
 
         
 <div className={ store?"aboutme":"aboutno"}>
-<p> I’m  Frontend developer - self-taught. Eager to explore the nature, my open mind and the new technologies. I consider myself to be a fast learner, able to grasp new concepts quickly with excellent capacity to remember new information.
-        My tech stack in short includes: JavaScript, React Tailwind, CSS.</p></div>
+<p> My areas of expertise include logo design, print design, and web design.
+          ranging from websites to Web-Apps
+          I take pride in my ability to deliver projects on time and on budget, while maintaining the highest standards of quality.</p></div>
 <span onClick={text}>{read}</span>
       </div>
       <div className="mainimg">
-      <img src="/logos.jpeg" alt="" />
+      <img src="/logo.jpeg" alt="" />
       </div>
     </div>
   )

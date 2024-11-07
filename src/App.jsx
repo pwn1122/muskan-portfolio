@@ -5,6 +5,7 @@ import Section from './components/Section'
 import Project from './components/Project'
 import Contact from './components/Contact'
 import Blog from './components/Blog'
+import Skills from './components/Skills'
 function App() {
   return (
     <div>
@@ -12,6 +13,7 @@ function App() {
       <Section/>
       <About/>
       <Project/>
+      <Skills/>
       <Contact/> 
       {/* <Blog/> */}
       
