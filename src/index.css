@@ -123,11 +123,12 @@ body{
   color: white;
 }
 .section h2 {
-  font-size: clamp(1rem, 0.5rem + 2.6667vw, 2.5rem);
+  /* font-size: clamp(1rem, 0.5rem + 2.6667vw, 2.5rem); */
+  font-size: 40px;
 }
 
 .section span{
-  font-size: clamp(1rem, 0.5rem + 2.6667vw, 2.5rem);
+ font-size: 40px;
   color: var(--my);
 }
 .section a{
