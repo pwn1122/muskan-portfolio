@@ -13,7 +13,7 @@ function Skills() {
       <div>
         <marquee behavior="" direction="">
 
-           <h1>Hi, I'm Sonu Dhillon ✌️</h1>
+           <h1>Hi, I'm Muskan Setia ✌️</h1>
         </marquee>
           <div> 
          <ul>

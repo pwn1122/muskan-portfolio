@@ -11,7 +11,7 @@ function Navbar() {
     <>
       <div className="Navbar">
         <div className="logo">
-          <img src="/short-logo.png" alt="" />
+          <img src="/ms.jpg" alt="" />
         </div>
         <div className="Navbarlinks">
           {/* <NavLink to={"/about"}>about</NavLink> */}

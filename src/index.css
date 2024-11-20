@@ -11,7 +11,7 @@ body{
   width: 100%;
   font-family: "Roboto",sans-serif;
   height: max-content;
-  background-color: rgb(8, 19, 31);
+  background-color: rgb(56, 85, 116);
   background-attachment: fixed;
 
   background-image: url('/public/img/background.svg');
@@ -129,7 +129,7 @@ body{
 
 .section span{
  font-size: 40px;
-  color: var(--my);
+  color: black;
 }
 .section a{
   list-style: none;
@@ -261,7 +261,7 @@ overflow: hidden;
   text-decoration: none;
 }
 .projectlist{
-  width: 26%;
+  width: 100%;
   padding: 3rem 6rem;
   display: flex;
   flex-direction: column;
@@ -294,7 +294,7 @@ list-style: none;
   display: grid;
   padding: 2rem 4rem;
   height: max-content;
-  grid-template-columns: repeat(4,1fr);
+  grid-template-columns: repeat(2,1fr);
   gap: 2rem;
   width: 100%;
   /* background-color: aqua; */

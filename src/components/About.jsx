@@ -18,7 +18,7 @@ function About() {
     <div className='about' id='about'>
       <div className='main'>
         <h2>About</h2>
-        <p> Hello, I’m Sonu Dhillon, a graphic designer with a passion for creating meaningful designs that make a lasting impact <br />
+        <p> Hello, I’m Muskan Setia, a graphic designer with a passion for creating meaningful designs that make a lasting impact <br />
         As a graphic designer, I strive to create designs that are not only visually appealing but also communicate a message effectively. <br />
         I have worked with clients from various sectors, such as fashion, food, and education.</p>
 
@@ -30,7 +30,7 @@ function About() {
 <span onClick={text}>{read}</span>
       </div>
       <div className="mainimg">
-      <img src="/logo.jpeg" alt="" />
+      <img src="/msukan-logo.jpeg" alt="" />
       </div>
     </div>
   )

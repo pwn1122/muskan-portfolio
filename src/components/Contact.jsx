@@ -9,7 +9,7 @@ function Contact() {
             Contact / <span> Hire me</span>
           </h1>
           <form
-            action="https://formsubmit.co/dhillonsonu427@gmail.com"
+            action="https://formsubmit.co/muskansetia18@gmail.com"
             method="POST" target="blank"
           >
             <input type="text" placeholder="name" name="name" required />
@@ -28,7 +28,7 @@ function Contact() {
           <span>Or you can follow me here</span>
           <div className="contacticons">
             {" "}
-            <Link to={"https://www.instagram.com/design_dynamo_00?igsh=cDczZXdiamxzenhz"}>
+            <Link to={"https://www.instagram.com/muskan_graphix._?igsh=M2t0NnZscGw3dHp5"}>
               <img
                 width="24"
                 height="24"
@@ -42,7 +42,7 @@ function Contact() {
       </div>
       <hr />
       <div className="hars">
-        <span>Sonu Dhillon © 2024 | Made with love using React and CSS</span>
+        <span>Muskan Setia © 2024 | Made with love using React and CSS</span>
       </div>
     </div>
   );
