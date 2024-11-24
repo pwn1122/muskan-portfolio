@@ -5,6 +5,30 @@ import { NavLink,Link } from 'react-router-dom'
 function Project() {
     let js = [
         {
+          img: "/img/canada.jpg",
+          tittle: "The SkyLine",
+        },
+        {
+          img: "/img/bridal.jpg",
+          tittle: "Reema Dhukia Makeover",
+        },
+        {
+          img: "/img/airlines.jpg",
+          tittle: "Domestic Airlines",
+        },
+        {
+          img: "/img/lipton.jpg",
+          tittle: "Lipton Tea",
+        },
+        {
+          img: "/img/sauce.jpg",
+          tittle: "Full Of Sauce",
+        },
+        {
+          img: "/img/dosa.jpg",
+          tittle: "Anna South Indian Dausa",
+        },
+        {
           img: "/img/navratri.jpg",
           tittle: "Happy Navratri",
         },
