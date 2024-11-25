@@ -127,7 +127,7 @@ function Project() {
         {
            img: "/img/kurkure.jpg",
           tittle: "Kurkure 3D Packing",
-          link : "https://www.pacdora.com/share?filter_url=pser9llvxi"
+          link : "https://www.pacdora.com/share?filter_url=psd8l6rqlo"
         },
         {
            img: "/img/meggie.jpg",
